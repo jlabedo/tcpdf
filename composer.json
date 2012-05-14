@@ -1,5 +1,5 @@
 {
-    "name": "tcpdf/tcpdf",
+    "name": "jlabedo/tcpdf",
     "version": "5.9.160",
     "homepage": "http://www.tcpdf.org/",
     "type": "library",
@@ -18,21 +18,7 @@
     },
     "autoload": {
         "classmap": [
-            "fonts",
-            "config/lang",
-            "config",
-            "2dbarcodes.php",
-            "barcodes.php",
-            "datamatrix.php",
-            "encodings_maps.php",
-            "htmlcolors.php",
-            "pdf417.php",
-            "qrcode.php",
-            "spotcolors.php",
-            "tcpdf.php",
-            "tcpdf_filters.php",
-            "tcpdf_parser.php",
-            "unicode_data.php"
+            "tcpdf.php"
         ]
     }
 }
